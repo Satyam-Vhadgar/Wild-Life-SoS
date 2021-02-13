@@ -1,0 +1,878 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+}
+.NavigatioBar{
+  position: absolute;
+  background-color: #FFFFFF;
+  width: 1920px;
+  height: 72px;
+}
+.Logo{
+  position: absolute;
+  left: 20px;
+}
+.TakeAction{
+  position: absolute;
+  left: 1604px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:#F89825;
+  color: white;
+  padding: 27px 40px;
+  border: none;
+  top:0;
+  font-family: 'Raleway', sans-serif;
+}
+.TakeAction:hover{
+  background-color: black;
+}
+.DonateNow{
+  position: absolute;
+  left: 1436px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:#F1562A;
+  color: white;
+  padding: 27px 40px;
+  border: none;
+  top:0;
+  font-family: 'Raleway', sans-serif;
+}
+.DonateNow:hover{
+  background-color: black;
+}
+.LogIn{
+  position: absolute;
+  left: 1312px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:#FFFFFF;
+  color: Black;
+  padding: 27px 40px;
+  border: none;
+  top:0;
+  font-family: 'Raleway', sans-serif;
+}
+.LogIn:hover{
+  color:#F1562A;
+}
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 1080px;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: Black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #F1562A;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 60px;
+}
+
+.openbtn {
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 26px 40px;
+  border: none;
+  position:absolute;
+  right:0;
+  top:0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.openbtn:hover {
+  color:#F1562A;
+}
+.LogoInMenu{
+  position: absolute;
+  left: 850px;
+  top: 50px;
+}
+.EntireMenu{
+  position: relative;
+  bottom: 150px;
+  left: 150px;
+}
+.AboutMenu{
+  position: absolute;
+  left: 200px;
+  top: 400px;
+}
+.WhatWeDoMenu{
+  position: absolute;
+  left: 400px;
+  top: 400px;
+}
+.WhoWeAreMenu{
+  position: absolute;
+  left: 700px;
+  top: 400px;
+}
+.NewsMenu{
+  position: absolute;
+  left: 1000px;
+  top: 400px;
+}
+.ContactMenu{
+  position: absolute;
+  left: 1200px;
+  top: 400px;
+}
+.Donate{
+  position:relative;
+  top: 400px;
+  left: 700px;
+
+}
+.Donate1{
+  position: absolute;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:#F1562A;
+  color: white;
+  padding: 15px 90px;
+  border: none;
+  top:0;
+  font-family: 'Raleway', sans-serif;
+}
+.Donate1:hover{
+  background-color: black;
+}
+.Action{
+  position:relative;
+  top: 400px;
+  left: 1000px;
+
+}
+.Action1{
+  position: absolute;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:#F89825;
+  color: white;
+  padding: 15px 90px;
+  border: none;
+  top:0;
+  font-family: 'Raleway', sans-serif;
+}
+.Action1:hover{
+  background-color: black;
+}
+.SocialSection{
+  position: absolute;
+  top: 300px;
+  left: -460px;
+}
+.ProtectSection{
+  position: relative;
+  top: 72px;
+  background-color: grey;
+  width: 1920px;
+  height: 700px;
+}
+.Egle{
+  background-image: url("Egle.jpg");
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.OrangeBar{
+  position: absolute;
+  background-color: #F1562A;
+  width: 150px;
+  height: 30px;
+  top: 100px;
+  left: 100px;
+}
+.Protect{
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  color: Black;
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+.Our{
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  color: Black;
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+.Wild{
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  color: #F1562A;
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+.Para{
+  position: absolute;
+  top: 450px;
+  left: 110px;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+.Get{
+  position: absolute;
+  top: 740px;
+  left: 150px;
+
+}
+.Involved{
+  position: absolute;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:black;
+  color: white;
+  padding: 20px 200px;
+  border: none;
+  top:0;
+  font-family: 'Raleway', sans-serif;
+}
+.Involved:hover{
+  background-color: #F1562A;
+}
+.WhiteSection{
+  position: relative;
+  top: 120px;
+  background-color: #FFFFFF;
+  width:1920px;
+  height:400px;
+}
+.FourtyThousand{
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.OneThousand{
+  position: absolute;
+  left: 700px;
+  top: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+.TwoHundread{
+  position: absolute;
+  left: 1200px;
+  top: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+.OneEarth{
+  position: absolute;
+  left: 1600px;
+  top: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+.MultipleDivSection{
+  position: relative;
+  top:200px;
+  background-color: black;
+  width: 1920px;
+  height: 300px;
+}
+.BlackSection{
+  position: absolute;
+  width: 800px;
+  height:300px;
+  background-color:black;
+  color: white;
+}
+.BlackSectionContent{
+  position: absolute;
+  top: 50px;
+  left: 150px;
+}
+.BlackSectionLearnMore{
+  position: absolute;
+  top: 180px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border:1px solid white;
+  font-family: 'Quicksand', sans-serif;
+}
+.BlackSectionLearnMore:hover{
+  background-color:white;
+  color:black;
+}
+.PhotoSection{
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  left: 800px;
+}
+.BlueSection{
+  position: absolute;
+  left: 1200px;
+  background-color: #7EB7E4;
+  width: 800px;
+  height: 300px;
+}
+.BlueSectionContent{
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  color: white;
+}
+.BlueSectionSupportUs{
+  position: absolute;
+  top: 180px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:#7EB7E4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border:1px solid white;
+  font-family: 'Quicksand', sans-serif;
+}
+.BlueSectionSupportUs:hover{
+  background-color:white;
+  color:black;
+}
+.AnimalPhotoSection{
+  position: relative;
+  top: 200px;
+  background-color: black;
+  width: 1920px;
+  height:750px;
+}
+.LionSection{
+  position: absolute;
+  background-color: yellow;
+  width: 800px;
+  height: 750px;
+}
+.YellowSection{
+  position: absolute;
+  top:350px;
+  left: 350px;
+  background-color: #F89825;
+  width: 450px;
+  height: 400px;
+}
+.YellowSectionContent{
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.ReadNow{
+  position: absolute;
+  top: 200px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:#F89825;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border:1px solid white;
+  font-family: 'Quicksand', sans-serif;
+}
+.ReadNow:hover{
+  background-color: white;
+  color: black;
+}
+.ElephantSection{
+  position: absolute;
+  right: 0;
+  background-color: #F1562A;
+  width: 1120px;
+  height: 350px;
+}
+.ElephantSectionContent{
+  position: absolute;
+  left: 250px;
+}
+.ActNow{
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:#F1562A;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border:1px solid white;
+  font-family: 'Quicksand', sans-serif;
+}
+.ActNow:hover{
+  background-color: white;
+  color:black;
+}
+.DarkSection{
+  position: absolute;
+  top: 350px;
+  left: 800px;
+  background-color: black;
+  width: 450px;
+  height: 400px;
+}
+.DarkSectionContent{
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.OurTeam{
+  position: absolute;
+  top: 200px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border:1px solid white;
+  font-family: 'Quicksand', sans-serif;
+}
+.OurTeam:hover{
+  background-color: white;
+  color: black;
+}
+.ElephantPicSection{
+  position: absolute;
+  top: 350px;
+  right: 0;
+  width:670px;
+  height: 400px;
+}
+.NewsSection{
+  position: relative;
+  top: 200px;
+  background-color: #FFFFFF;
+  width: 1920px;
+  height: 750px;
+
+}
+.NewsSectionContent{
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+.Section1{
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  width: 250px;
+  height: 250px;
+  border:1px solid #C1C1C1;
+}
+.Section1Content{
+  position: absolute;
+  left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+.Section1Content:hover{
+  color: #F1562A;
+  cursor: pointer;
+}
+.Section1ContentParagraph{
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.Comment1{
+  position: absolute;
+  top: 185px;
+  left: 50px;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+}
+.Heart1{
+  position: absolute;
+  left: 170px;
+  bottom: 15px;
+}
+.Section2{
+  position: absolute;
+  top: 300px;
+  left: 800px;
+  width: 250px;
+  height: 250px;
+  border:1px solid #C1C1C1;
+}
+.Section2Content{
+  position: absolute;
+  left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+.Section2Content:hover{
+  color: #F1562A;
+  cursor: pointer;
+}
+.Section2ContentParagraph{
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+.Comment2{
+  position: absolute;
+  top: 185px;
+  left: 50px;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+}
+.Heart2{
+  position: absolute;
+  left: 170px;
+  bottom: 15px;
+}
+.Section3{
+  position: absolute;
+  top: 300px;
+  left: 1100px;
+  width: 250px;
+  height: 250px;
+  border:1px solid #C1C1C1;
+}
+.Section3Content{
+  position: absolute;
+  left: 20px;
+  top: 140px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+.Section3Content:hover{
+  color: #F1562A;
+  cursor: pointer;
+}
+.Section3ContentParagraph{
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+.Comment3{
+  position: absolute;
+  top: 185px;
+  left: 50px;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+}
+.Heart3{
+  position: absolute;
+  left: 170px;
+  bottom: 15px;
+}
+.NewsSectionButton{
+  position: absolute;
+  top: 600px;
+  left: 500px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border:1px solid white;
+  font-family: 'Quicksand', sans-serif;
+}
+.NewsSectionButton:hover{
+  background-color: white;
+  color: black;
+}
+.OrangeSection{
+  position: relative;
+  top: 200px;
+  background-color: #F1562A;
+  width: 1920px;
+  height: 300px;
+}
+.OrangeSectionContent{
+  position: absolute;
+  left: 550px;
+  color: White;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+}
+.OrangeSectionContent h3{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    color: white;
+    bottom: 10px;
+    font-size: 35px;
+}
+.SubscribeSection{
+    position: absolute;
+    left: 400px;
+    top: 260px;
+
+}
+.InputBar{
+    width: 800px;
+    height:80px;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-style: none;
+}
+
+.SubscribeButton{
+  position: absolute;
+  top: 260px;
+  left: 1200px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:white;
+  color: black;
+  padding: 31px 50px;
+  border: none;
+  border:0.5px solid black;
+  font-family: 'Quicksand', sans-serif;
+}
+.SubscribeButton:hover{
+  background-color: #F89825;
+  color: white;
+}
+.ContactSection{
+  position: relative;
+  top: 300px;
+  width: 1920px;
+  height: 600px;
+}
+.ContactUs{
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+.ContactPara{
+  position: absolute;
+  top: 130px;
+  left: 200px;
+  font-family: 'Quicksand', sans-serif;
+}
+.ContactForm{
+  position: absolute;
+  top: 250px;
+  left: 200px;
+}
+#Name{
+  border-style: none;
+  border-bottom: 1px solid black;
+  width: 200%;
+  padding: 20px;
+
+}
+#Name:hover{
+  border-style: none;
+  border-bottom: 1px solid #F1562A;
+}
+#Email{
+  border-style: none;
+  border-bottom: 1px solid  black;
+  width: 200%;
+  padding: 20px;
+}
+#Email:hover{
+  border-style: none;
+  border-bottom: 1px solid #F1562A;
+}
+#Phone{
+  border-style: none;
+  border-bottom: 1px solid  black;
+  width: 200%;
+  padding: 20px;
+
+}
+#Phone:hover{
+  border-style: none;
+  border-bottom: 1px solid #F1562A;
+}
+#Submit{
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color:white;
+  color: #F1562A;
+  padding: 10px 20px;
+  border: none;
+  border:1px solid white;
+  font-family: 'Quicksand', sans-serif;
+}
+#Submit:hover{
+  background-color: black;
+  color: white;
+}
+.Address{
+  position: absolute;
+  left: 1200px;
+  top: 130px;
+  font-family: 'Quicksand', sans-serif;
+}
+.Phone{
+  position: absolute;
+  left: 1450px;
+  top: 130px;
+  font-family: 'Quicksand', sans-serif;
+}
+.Email{
+  position: absolute;
+  left: 1650px;
+  top: 130px;
+  font-family: 'Quicksand', sans-serif;
+}
+.FSocial{
+  position: absolute;
+  left: 1200px;
+  top: 300px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+.FbLogo{
+  position: absolute;
+  top: 15px;
+  left: 25px;
+
+}
+.FbLogo:hover{
+  color: #F1562A;
+  cursor: pointer;
+}
+.Facebook{
+  position: absolute;
+  top: 20px;
+  left: -6px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+}
+.TSocial{
+  position: absolute;
+  left: 1330px;
+  top: 300px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+.TwLogo{
+  position: absolute;
+  top: 15px;
+  left: 28px;
+
+}
+.TwLogo:hover{
+  color: #F1562A;
+  cursor: pointer;
+}
+.Twitter{
+  position: absolute;
+  top: 20px;
+  left: 2px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+}
+.ISocial{
+  position: absolute;
+  left: 1460px;
+  top: 300px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+.InLogo{
+  position: absolute;
+  top: 15px;
+  left: 28px;
+
+}
+.InLogo:hover{
+  color: #F1562A;
+  cursor: pointer;
+}
+.Instagram{
+  position: absolute;
+  top: 20px;
+  left: -10px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+}
+.YSocial{
+  position: absolute;
+  left: 1590px;
+  top: 300px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+.YoLogo{
+  position: absolute;
+  top: 15px;
+  left: 28px;
+
+}
+.YoLogo:hover{
+  color: #F1562A;
+  cursor: pointer;
+}
+.Youtube{
+  position: absolute;
+  top: 20px;
+  left: -5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+}
+.Credit{
+  position: absolute;
+  top: 500px;
+  left: 1200px;
+  font-family: 'Quicksand', sans-serif;
+}
+.Satyam{
+  font-family: 'Satisfy', cursive;
+  color: #fc031c;
+  font-size: 20px;
+}
+.CreditLogo{
+  position: absolute;
+  left: 1400px;
+  top: 450px;
+  cursor: pointer;
+}
